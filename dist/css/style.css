@@ -1001,11 +1001,23 @@ label {
 	padding: 8px 24px;
 	height: 32px;
 }
+
+.button-sm:hover {
+	background-color: #B29300;
+	color: #fff !important;
+}
+
+.button-sm.button-shadow:hover {
+	box-shadow: 0 4px 16px rgba(32, 43, 54, 0.25);
+	color: #fff !important;
+}
+
 .button-sm.button-shadow::before {
 	box-shadow: 0 4px 16px rgba(32, 43, 54, 0.12);
 }
 .button-sm.button-shadow:hover::before {
 	box-shadow: 0 4px 16px rgba(32, 43, 54, 0.25);
+	color: #fff  !important;
 }
 .button-primary,
 .button-secondary {
@@ -1025,7 +1037,7 @@ label {
 	/* background: linear-gradient(65deg, #00a2b8 -25%, #00f9d2 100%); */
 }
 .button-secondary:hover {
-	background: #028d51;
+	background: #B29300;
 	/* background: linear-gradient(65deg, #00a4bb -25%, #00fcd4 100%); */
 }
 
