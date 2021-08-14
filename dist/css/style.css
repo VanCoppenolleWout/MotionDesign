@@ -953,7 +953,7 @@ label {
 	padding-left: 64px;
 }
 .sr .has-animations .is-revealing {
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 .button {
 	display: inline-flex;
@@ -1134,7 +1134,7 @@ label {
 }
 @media (min-width: 641px) {
 	.hero {
-		padding-top: 80px;
+		padding-top: 32px;
 	}
 	.hero-paragraph {
 		margin-bottom: 40px;
